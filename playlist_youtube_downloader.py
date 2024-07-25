@@ -1,9 +1,9 @@
 import os
 import http
 import requests
-from tqdm import tqdm
-from pytube import YouTube, Playlist
-from pytube.exceptions import VideoUnavailable
+from tqdm import tqdm                                     # if you get 400 error install pytubefix library
+from pytube import YouTube, Playlist                      # from pytubefix import YouTube, Playlist 
+from pytube.exceptions import VideoUnavailable            # from pytube.exceptions import VideoUnavailable
 
 DOWNLOADS_DIRECTORY = 'downloads'
 MAX_RETRIES = 30
